@@ -1,0 +1,40 @@
+/* selector{declaration} */
+/* Universal selector */
+*{
+
+
+background-color: lightblue;
+}
+
+/* Element (tag) selector */
+h2{
+    color: red;
+    font-size: 25px;
+}
+
+/* ID selector */
+#p1{
+    color: darkcyan;
+    background-color: pink;
+    font-size: 28px;
+}
+.para{
+    color: purple;
+    font-size: 25px;
+}
+#div1{
+    border: black solid 1px;
+}
+/* descending selector */
+div p{
+    color: yellow;
+    background-color: lightgray;
+    font-size: 17px;
+}
+
+/* child selector */
+div > h2{
+    color: brown;
+    background-color: gray;
+    font-size: 17px;
+}
