@@ -1,0 +1,10 @@
+body{
+    width: 100%;
+    height: 600px;
+    background-color: aqua;
+    background-image: url(photo/R.jfif);
+    background-repeat: no-repeat;
+    /* background-position:300px; */
+    background-size: cover;
+
+}
