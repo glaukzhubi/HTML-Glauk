@@ -1,0 +1,18 @@
+#p1{
+    margin: 150px;
+    border: 10px solid red;
+    outline-style: inset;
+    outline-width: 10px;
+    outline-color: blue;
+    outline-offset: 20px;
+    width: 300px;
+    padding: 20px;
+}
+#p2{
+    padding: 20px 10px 30px 5px;
+    margin: 50px 30px 20px 30px;
+}
+#p3{
+    padding-top: 50px;
+    margin-left: 30px;
+}
