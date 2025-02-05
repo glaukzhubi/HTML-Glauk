@@ -2,9 +2,34 @@ body{
     width: 100%;
     height: 600px;
     background-color: aqua;
-    background-image: url(photo/R.jfif);
+    background-image: url(photo/r.webp);
     background-repeat: no-repeat;
     /* background-position:300px; */
     background-size: cover;
+    background-attachment: fixed;
 
+}
+#div1{
+    border: solid aqua 5px;
+    height: 417px;
+    width: 626px;
+    background-image: url(photo/R.jfif);
+}
+#div2{
+    border: solid aqua 5px;
+    height: 417px;
+    width: 626px;
+    background-image: url(photo/R.jfif);
+}
+#div3{
+    border: solid aqua 5px;
+    height: 417px;
+    width: 626px;
+    background-image: url(photo/R.jfif);
+}
+#div4{
+    border: solid aqua 5px;
+    height: 417px;
+    width: 626px;
+    background: lightblue url(photo/R.jfif) no-repeat scroll 100%;
 }
