@@ -1,0 +1,36 @@
+/* font size and family */
+#p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-style:normal; */
+    /* font-style:oblique; */
+    font-style: italic;
+}
+
+/* font variant */
+#p2{
+    font-variant: small-caps;
+    /* font-variant:normal; */
+}
+
+/* font weight */
+#p3{
+    font-weight: bold;
+    /* font-weight:900; */
+    /* font-weight:bolder; */
+}
+
+/* font size */
+#p4{
+    font-size: 4vw;
+    /* font-size:50px; */
+    /* font-size:150%; */
+    /* font-size:large; */
+    /* font-size:small; */
+    /* font-size:1cm; */
+}
+
+/* ShortHand */
+#p5{
+    font: bold italic small-caps 10vw georgian;
+    width: 150px;
+}
