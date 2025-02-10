@@ -1,0 +1,93 @@
+/* font size and family */
+#p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-style:normal; */
+    /* font-style:oblique; */
+    font-style: italic;
+}
+
+/* font variant */
+#p2{
+    font-variant: small-caps;
+    /* font-variant:normal; */
+}
+
+/* font weight */
+#p3{
+    font-weight: bold;
+    /* font-weight:900; */
+    /* font-weight:bolder; */
+}
+
+/* font size */
+#p4{
+    font-size: 4vw;
+    /* font-size:50px; */
+    /* font-size:150%; */
+    /* font-size:large; */
+    /* font-size:small; */
+    /* font-size:1cm; */
+}
+
+/* ShortHand */
+#p5{
+    font: bold italic small-caps 10vw georgian;
+    width: 150px;
+}
+
+/* google fonts */
+#p6{
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* text align */
+  #p7{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 20px;
+    text-align: justify;
+    height: 250px;
+    width: 300px;
+  }
+
+  /* text color and direction */
+  #p8{
+    color: aqua;
+    direction: rtl;
+  }
+
+  /* text-indent */
+  #p9{
+    text-indent: 20px;
+    /* text-indent: 5cm; */
+  }
+
+  /* text spacing */
+  #p10{
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    /* white-space: pre; */
+  }
+
+  /* text decoration */
+  #p11{
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    /* text-decoration: overline;*/
+  }
+
+  /* text transform */
+  #p12{
+    text-transform: capitalize;
+    /* text-transform:lowercase; */
+    /* text-transforme:uppercase; */
+    /* text-transform:none; */
+  }
+
+  /* text shadow */
+  #p13{
+    font-size: 70px;
+    text-shadow: 3px 6px 8px green;
+  }
+  
