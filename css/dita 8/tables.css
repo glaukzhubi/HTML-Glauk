@@ -1,0 +1,43 @@
+#table1 {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+#table1 td {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+ /*per color te tabelave*/
+#table1 {
+    background-color: red;
+    width: 400px;
+    height: 40px;
+}
+
+/* tabela me tekst, tekst-align */
+#table2,
+.table2 {
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#table3,
+.teble3 {
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 400px;
+    height: 40px;
+    border-collapse: collapse;
+}
+
+#table2 tr:nth-child(odd) {
+    background-color: pink;
+    color: blue;
+}

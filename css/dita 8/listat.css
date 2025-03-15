@@ -1,0 +1,55 @@
+#ul1 {
+    list-style-position: outside;
+    list-style-type: circle;
+    width: 100px;
+}
+
+#ul2 {
+    list-style-position: inside;
+    width: 100px;
+    /* text-align: center; */
+}
+
+#ul3 {
+    list-style-image: url(home-agreement.png);
+    list-style-position: inside;
+}
+
+#ol1 {
+    list-style-type: upper-alpha;
+}
+
+#ol2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ol3 {
+    list-style: inside upper-roman;
+    width: 100px;
+}
+
+#ul4 {
+    background: red;
+    padding: 20px;
+}
+
+#ul4 li {
+    background: blue;
+    color: white;
+    margin: 20px;
+}
+
+#ol4 li {
+    background: lightcoral;
+    color: white;
+    margin: 20px;
+    
+}
+
+#ol4 li:hover {
+    background:lightblue;
+    color: red;
+    margin: 27px;  
+}
