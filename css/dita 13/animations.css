@@ -1,0 +1,180 @@
+#div1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: Fero;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+
+@keyframes Fero {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: unikkatil;
+    animation-duration: 5s;
+}
+
+@keyframes unikkatil {
+    0%{
+        background-color: red;
+    }
+    33%{
+        background-color: green;
+    }
+    66%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: lightgrey;
+    }
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: cyan;
+    animation-name: noizy;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes noizy {
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blueviolet;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: lightgrey;
+        top: 200px;
+        left: 0px;
+    }
+    100%{
+        background-color: pink;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+#div4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: cyan;
+    animation-name: stresi;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+@keyframes stresi{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        background-color: green;
+        top: 200px;
+        left: 200px;
+    }
+    100%{
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+#div5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    margin-top: 20px;
+    animation-name: kozak;
+    animation-delay:1s ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: rase;
+}
+@keyframes kozak {
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blueviolet;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: lightgrey;
+        top: 200px;
+        left: 0px;
+    }
+    100%{
+        background-color: pink;
+        top: 0px;
+        left: 0px;
+    }
+}
+#div6{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation: cozman 4s ease 1s infinite alternate;
+}
+@keyframes cozman {
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blueviolet;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: lightgrey;
+        top: 200px;
+        left: 0px;
+    }
+    100%{
+        background-color: pink;
+        top: 0px;
+        left: 0px;
+    }
+}
